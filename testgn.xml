@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">
+	<listeners>
+		<listener
+			class-name="Demo.TestCase_Adayroi_PageFactory.Utiity.ReporterCustomize"></listener>
+	</listeners>
+	<test name="TestSignInPage">
+		<classes>
+			<class
+				name="Demo.TestCase_Adayroi_PageFactory.TestCase.SignInPage_Test" />
+		</classes>
+	</test>
+	<test name="TestCartInPage">
+		<classes>
+			<class
+				name="Demo.TestCase_Adayroi_PageFactory.TestCase.CartPage_Test" />
+		</classes>
+	</test>
+</suite>  	

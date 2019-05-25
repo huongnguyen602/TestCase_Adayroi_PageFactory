@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="Demo.TestCase_Adayroi_PageFactory.Utiity.ReporterCustomize"/>
+  </listeners>
+  <test thread-count="5" name="TestCartInPage(failed)">
+    <classes>
+      <class name="Demo.TestCase_Adayroi_PageFactory.TestCase.CartPage_Test">
+        <methods>
+          <include name="testGioHang" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- Demo.TestCase_Adayroi_PageFactory.TestCase.CartPage_Test -->
+    </classes>
+  </test> <!-- TestCartInPage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
